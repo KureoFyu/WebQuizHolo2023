@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="soal4style.css">
+    <title>Soal Hololive 4</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz Hololive</h1>
+      </header>
+      <main>
+        <div class="quiz-container">
+          <img src="hololive_kobo_1_million_subs.jpg" alt="Gambar Pertanyaan">
+          <h2>Pertanyaan Hololive:</h2>
+          <p id="question">Vtuber hololive siapa yang subscribernya paling banyak di tahun 2022?</p>
+          <div class="options">
+            <button onclick="checkAnswer(this)" data-option="1">Kobo Kanaeru</button>
+            <button onclick="checkAnswer(this)" data-option="2">Moona Hoshinova</button>
+            <button onclick="checkAnswer(this)" data-option="3">Sakura Miko</button>
+            <button onclick="checkAnswer(this)" data-option="4">Gawr Gura</button>
+          </div>
+          <a href="/Soal 5/soal5.html"><button id="nextBtn" onclick="nextQuestion()" style="display: none;">Lanjut Soal</button></a>
+          <p id="result"></p>
+        </div>
+      </main>
+      <script src="scriptsoal4.js"></script>
+</body>
+</html>

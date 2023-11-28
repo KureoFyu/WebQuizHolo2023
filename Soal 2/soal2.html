@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="soal2style.css">
+    <title>Soal Hololive 2</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz Hololive</h1>
+      </header>
+      <main>
+        <div class="quiz-container">
+          <img src="b55b715f9b0d55be68062483864f5967.jpg" alt="Gambar Pertanyaan">
+          <h2>Pertanyaan Hololive:</h2>
+          <p id="question">Kapan generasi keempat VTuber Hololive memulai debutnya?</p>
+          <div class="options">
+            <button onclick="checkAnswer(this)" data-option="1">10 Desember 2020</button>
+            <button onclick="checkAnswer(this)" data-option="2">22 Agustus 2020</button>
+            <button onclick="checkAnswer(this)" data-option="3">9 Oktober 2020</button>
+            <button onclick="checkAnswer(this)" data-option="4">2 Mei 2021</button>
+          </div>
+          <a href="/Soal 3/soal3.html"><button id="nextBtn" onclick="nextQuestion()" style="display: none;">Lanjut Soal</button></a>
+          <p id="result"></p>
+        </div>
+      </main>
+      <script src="scriptsoal2.js"></script>
+</body>
+</html>

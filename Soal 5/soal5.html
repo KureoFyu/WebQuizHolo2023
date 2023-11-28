@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="soal5syle.css">
+    <title>Soal Hololive 5</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz Hololive</h1>
+      </header>
+      <main>
+        <div class="quiz-container">
+          <img src="hq720.jpg" alt="Gambar Pertanyaan">
+          <h2>Pertanyaan Hololive:</h2>
+          <p id="question">antara 2018-2019 vtuber Shirakami Fubuki pernah collab dengan vtuber indo bernama?</p>
+          <div class="options">
+            <button onclick="checkAnswer(this)" data-option="1">Windah Basudara</button>
+            <button onclick="checkAnswer(this)" data-option="2">Maya Putri</button>
+            <button onclick="checkAnswer(this)" data-option="3">Alia Adelia</button>
+            <button onclick="checkAnswer(this)" data-option="4">AIrani Iofifteen</button>
+          </div>
+          <a href="/End.html"><button id="nextBtn" onclick="nextQuestion()" style="display: none;">Selesai</button></a>
+          <p id="result"></p>
+        </div>
+      </main>
+      <script src="scriptsoal5.js"></script>
+</body>
+</html>
